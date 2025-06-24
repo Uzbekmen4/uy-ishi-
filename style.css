@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 600px;
+}
+nav ul li a:hover{
+  color: black;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 149px;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+.hero-text{
+    width: 400px;
+}
+.hero-text h1{
+font-weight: 700;
+font-size: 45px;
+line-height: 56px;
+}
+.hero-text p{
+font-weight: 300;
+font-size: 19px;
+line-height: 32px;
+color: #7D7987;
+margin: 26px 0;
+}
+.btn{
+padding: 17px 51px;
+font-weight: 700;
+font-size: 18px;
+color: #458FF6;
+border: 1.4px solid #458FF6;
+border-radius: 55px;
+background-color: white;
+transition: 0.5s;
+}
+.btn:hover{
+    background-color: #458FF6;
+    color: white;
+}
+.services{
+    padding: 30px 0;
+}
+.services h2{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+.services-p{
+
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+ color: #7D7987;
+ width: 900px;
+ margin: 0 auto;
+}
+.card{
+    width: 380px;
+    height: 380px;
+    background: #E5E9F666;
+    border-radius: 20px;
+    padding: 71px 39px;
+    color: black;
+    transition: 0.7s;
+}
+.card h3{
+    font-size: 24px;
+    margin: 15px 0;
+}
+.ota{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 37px;
+}
+.card:hover{
+    background-color: #458FF6;
+    color: white;
+
+}
